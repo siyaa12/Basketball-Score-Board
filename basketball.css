@@ -1,0 +1,111 @@
+@import  url(https://www.fontspace.com/cursed-timer-ulil-font-f29411);
+body {
+
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    color: #EEEEEE;
+}
+.container1 {
+    display: flex;
+}
+.butt {
+    display:flex;
+    transform: translate(300px,-60px);
+    width:120px;
+    height:40px;
+    padding:10px;
+    margin:10px;
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px; 
+
+}
+.butto {
+    display:flex;
+    transform: translate(850px,-60px);
+    width:130px;
+    height:40px;
+    padding:10px;
+    margin:10px;
+    box-sizing: border-box;
+    /* width: 45px;
+    height: 45px; */
+    border: 2px solid #9AABD8;
+    border-radius: 5px; 
+}
+.butto:hover(){
+    background: pink;
+}
+#inc-btn1{
+    margin-right: 3px;
+}
+#inc-btn2{
+    margin-right: 3px;
+}
+#inc-btn4{
+    margin-right: 3px;
+}
+#inc-btn5{
+    margin-right: 3px;
+}
+h1{
+    /* position: absolute; */
+    /* display: flex;
+    justify-content: space-around;
+    width: 117px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    color: #F94F6D; */
+    
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    /* position: absolute; */
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    padding-left: 60px;
+    background: #080001;
+    border-radius: 5px;
+
+   
+    
+}
+#scr-btn1,#scr-btn2 {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    display: inline-block;
+}
+#scr-btn1{
+    position:relative; 
+    left:250px;
+    right:330px; 
+    top:2px;
+    margin-right:138px ;
+}
+#scr-btn2{
+    position:relative; 
+    left:610px;
+    right:250px; 
+    top:2px;
+}
